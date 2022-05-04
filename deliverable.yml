@@ -1,7 +1,7 @@
 apiVersion: carto.run/v1alpha1
 kind: Deliverable
 metadata:
-  name: mck-pov
+  name: mck-pov-poo
   namespace: mck-pov
 spec:
   source:
