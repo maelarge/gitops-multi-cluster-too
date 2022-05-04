@@ -1,0 +1,13 @@
+apiVersion: carto.run/v1alpha1
+kind: Deliverable
+metadata:
+  name: mck-pov-poo-poo
+  namespace: mck-pov
+  labels:
+    unicorn: poo
+spec:
+  source:
+    git:
+      ref:
+        branch: main
+      url: https://github.com/Mpluya/config-outer-loop-demo
