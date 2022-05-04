@@ -3,6 +3,8 @@ kind: Deliverable
 metadata:
   name: mck-pov-poo
   namespace: mck-pov
+  labels:
+    unicorn: poo
 spec:
   source:
     git:
